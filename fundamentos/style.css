@@ -1,0 +1,40 @@
+h1{
+    color: rgba(0, 0, 0, 0.849);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+    margin-top: 10px;
+    font-size: 50px;
+
+}
+
+
+
+h2{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+    margin-top: 15px;
+
+}
+
+body{
+    background-color: rgb(7, 77, 77);
+    background-image: url(/imagenes/pngtree-dark-abstract-background-with-black-overlap-layers-image_313630.jpg);
+    background-size: cover;
+
+}
+
+img{
+    width: 300px;
+    position: relative;
+    cursor: pointer;
+    transition: all 2s;
+    margin-left: 520px;
+    border-radius: 10%;
+}
+
+img:hover{
+    transform: scale( 1.1);
+}
